@@ -11,4 +11,9 @@ public class UserRegisteredEvent extends Event{
     private String userId;
     private String phone;
     private String hashedPassword;
+
+    @Override
+    public String getTopic() {
+        return TOPIC;
+    }
 }

@@ -47,7 +47,7 @@
         <dependency>
             <groupId>com.github.liuyi-haha</groupId>
             <artifactId>instant-messaging-system-common</artifactId>
-            <version>cf015305</version>
+            <version>main-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
