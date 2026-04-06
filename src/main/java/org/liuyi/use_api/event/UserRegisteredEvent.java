@@ -1,4 +1,4 @@
-package event;
+package org.liuyi.use_api.event;
 
 import lombok.Builder;
 import lombok.Data;
