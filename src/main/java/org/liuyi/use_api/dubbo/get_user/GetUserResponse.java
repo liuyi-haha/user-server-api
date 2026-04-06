@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.liuyi.use_api.dubbo.BaseResponse;
 
 import java.io.Serializable;
 
@@ -11,7 +12,7 @@ import java.io.Serializable;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetUserResponse implements Serializable {
+public class GetUserResponse extends BaseResponse {
     private String userId;
     private String avatarFileId;
     private String phone;
